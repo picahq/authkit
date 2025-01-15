@@ -148,6 +148,8 @@ export interface ConnectionRecord {
   environment: string;
   platform: string;
   secretsServiceId: string;
+  identity?: string;
+  identityType?: 'user' | 'team' | 'organization';
   settings: {
     parseWebhookBody: boolean;
     showSecret: boolean;

@@ -50,7 +50,8 @@ export class EventLinkWindow {
     container.style.height = "100%";
     container.style.width = "100%";
     container.style.position = "fixed";
-    container.style.display = "block";
+    container.style.display = "hidden";
+    container.style.visibility = "hidden";
     container.style.zIndex = "9999"
     container.style.backgroundColor = "transparent";
     container.style.inset = "0px";
@@ -60,7 +61,10 @@ export class EventLinkWindow {
     container.style.overflow = "hidden auto";
 
     container.onload = () => {
-      // Now that the iframe is fully loaded, you can send the message
+      setTimeout(() => {
+        container.style.display = "block";
+        container.style.visibility = "visible";
+      }, 100);
       container.contentWindow?.postMessage(
         {
           linkTokenEndpoint: this.linkTokenEndpoint,
