@@ -48,7 +48,6 @@
     "access": "public"
   },
   "scripts": {
-    "test": "jest",
     "build": "rollup -c"
   },
   "repository": {
