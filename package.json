@@ -1,7 +1,7 @@
 {
-  "name": "@integrationos/authkit",
-  "version": "1.1.0",
-  "description": "Frontend bindings for IntegrationOS AuthKit",
+  "name": "@picahq/authkit",
+  "version": "1.0.0",
+  "description": "Frontend bindings for Pica AuthKit",
   "files": [
     "dist",
     "src"
@@ -43,7 +43,7 @@
     "tslib": "^2.0.3",
     "typescript": "^4.1.3"
   },
-  "author": "@integrationos",
+  "author": "@picahq",
   "publishConfig": {
     "access": "public"
   },
@@ -53,13 +53,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/integration-os/authkit"
+    "url": "git+https://github.com/picahq/authkit"
   },
   "keywords": [
-    "integrationos",
+    "picahq",
     "integrations",
     "unified api"
   ],
   "license": "MIT",
-  "homepage": "https://integrationos.com"
+  "homepage": "https://picaos.com"
 }
