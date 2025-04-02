@@ -149,7 +149,7 @@ export interface ConnectionRecord {
   platform: string;
   secretsServiceId: string;
   identity?: string;
-  identityType?: 'user' | 'team' | 'organization';
+  identityType?: 'user' | 'team' | 'organization' | 'project';
   settings: {
     parseWebhookBody: boolean;
     showSecret: boolean;
