@@ -86,7 +86,6 @@ export class EventLinkWindow {
     if (iFrameWindow) {
       iFrameWindow.remove();
     }
-    this.onClose?.();
   }
 }
 
