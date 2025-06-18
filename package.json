@@ -48,7 +48,6 @@
     "access": "public"
   },
   "scripts": {
-    "test": "jest",
     "build": "rollup -c"
   },
   "repository": {
@@ -56,10 +55,10 @@
     "url": "git+https://github.com/picahq/authkit"
   },
   "keywords": [
-    "pica",
+    "picahq",
     "integrations",
     "unified api"
   ],
   "license": "MIT",
-  "homepage": "https://pica.com"
+  "homepage": "https://picaos.com"
 }
