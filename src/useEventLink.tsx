@@ -12,7 +12,10 @@ export const useEventLink = (props: EventLinkProps) => {
       if (iFrameWindow?.style?.display === "block") {
         switch (event.data?.messageType) {
           case "EXIT_EVENT_LINK":
-            linkWindow.closeLink();
+            props.onClose?.();
+            setTimeout(() => {
+              linkWindow.closeLink();
+            }, 200);
             break;
           case "LINK_SUCCESS":
             props.onSuccess?.(event.data?.message as ConnectionRecord);
