@@ -1,6 +1,6 @@
 {
   "name": "@picahq/authkit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Frontend bindings for Pica AuthKit",
   "files": [
     "dist",
@@ -59,6 +59,6 @@
     "integrations",
     "unified api"
   ],
-  "license": "MIT",
+  "license": "GPL-3.0",
   "homepage": "https://picaos.com"
 }
