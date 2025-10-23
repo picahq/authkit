@@ -9,10 +9,12 @@ AuthKit is a pre-built, embeddable authentication UI that makes it easy for your
 Fully compatible with popular frameworks such as React, Next.js, Vue, Svelte, and more.
 
 **Full documentation**: https://docs.picaos.com/authkit
+
 **Setup guide**: https://docs.picaos.com/authkit/setup
+
 **Manage AuthKit**: https://docs.picaos.com/authkit/management
 
-**Demo project**: https://github.com/picahq/authkit-demo
+**Demo app**: https://github.com/picahq/authkit-demo
 
 ## Install
 
@@ -50,8 +52,8 @@ const { open } = useAuthKit({
 
 To enable AuthKit connections, set up a backend endpoint that securely generates an AuthKit token for each authenticated user. For setup details and example code in multiple languages, see the [Backend Setup Guide](https://docs.picaos.com/authkit/setup#backend-setup).
 
-**TypeScript**: https://npmjs.com/package/@picahq/authkit-token
-**Python**: https://pypi.org/project/authkit-token
+- **TypeScript**: https://npmjs.com/package/@picahq/authkit-token
+- **Python**: https://pypi.org/project/authkit-token
 
 ## Diagram
 
