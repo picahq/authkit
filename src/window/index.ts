@@ -6,6 +6,8 @@ export class EventLinkWindow {
   private baseUrl?: string;
   private onClose?: () => void;
   private title?: string;
+  private imageUrl?: string;
+  private companyName?: string;
   private selectedConnection?: string;
   private showNameInput?: boolean;
   private appTheme?: "dark" | "light";
@@ -16,6 +18,8 @@ export class EventLinkWindow {
     this.baseUrl = props.baseUrl;
     this.onClose = props.onClose;
     this.title = props.title;
+    this.imageUrl = props.imageUrl;
+    this.companyName = props.companyName;
     this.selectedConnection = props.selectedConnection;
     this.showNameInput = props.showNameInput;
     this.appTheme = props.appTheme;
@@ -35,6 +39,8 @@ export class EventLinkWindow {
       linkTokenEndpoint: this.linkTokenEndpoint,
       linkHeaders: this.linkHeaders,
       title: this.title,
+      imageUrl: this.imageUrl,
+      companyName: this.companyName,
       selectedConnection: this.selectedConnection,
       showNameInput: this.showNameInput,
       appTheme: this.appTheme,
@@ -70,6 +76,8 @@ export class EventLinkWindow {
           linkTokenEndpoint: this.linkTokenEndpoint,
           linkHeaders: this.linkHeaders,
           title: this.title,
+          imageUrl: this.imageUrl,
+          companyName: this.companyName,
           selectedConnection: this.selectedConnection,
           showNameInput: this.showNameInput,
           appTheme: this.appTheme,
