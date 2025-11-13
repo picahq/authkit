@@ -1,10 +1,12 @@
 {
   "name": "@picahq/authkit",
-  "version": "1.0.2",
+  "version": "1.0.5",
   "description": "Frontend bindings for Pica AuthKit",
   "files": [
     "dist",
-    "src"
+    "src",
+    "README.md",
+    "LICENSE"
   ],
   "main": "dist/index.umd.js",
   "module": "dist/index.esm.js",
@@ -57,8 +59,8 @@
   "keywords": [
     "picahq",
     "integrations",
-    "unified api"
+    "multi-tenant"
   ],
-  "license": "MIT",
+  "license": "GPL-3.0",
   "homepage": "https://picaos.com"
 }

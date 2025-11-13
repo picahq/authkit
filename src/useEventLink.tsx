@@ -13,7 +13,9 @@ export const useEventLink = (props: EventLinkProps) => {
         switch (event.data?.messageType) {
           case "EXIT_EVENT_LINK":
             props.onClose?.();
-            linkWindow.closeLink();
+            setTimeout(() => {
+              linkWindow.closeLink();
+            }, 200);
             break;
           case "LINK_SUCCESS":
             props.onSuccess?.(event.data?.message as ConnectionRecord);
