@@ -1,9 +1,10 @@
 {
-  "presets": ["@babel/preset-env"],
-  "plugins": [
-    "babel-plugin-typescript-to-proptypes",
-    "@babel/plugin-proposal-class-properties",
-    "@babel/plugin-proposal-export-default-from",
-    "add-module-exports"
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        "targets": "> 0.25%, not dead"
+      }
+    ]
   ]
 }
