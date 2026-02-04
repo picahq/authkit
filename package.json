@@ -1,6 +1,6 @@
 {
   "name": "@picahq/authkit",
-  "version": "1.0.8",
+  "version": "1.0.9",
   "description": "Frontend bindings for Pica AuthKit",
   "files": [
     "dist",
@@ -13,7 +13,11 @@
   "types": "dist/index.d.ts",
   "devDependencies": {
     "@babel/core": "^7.24.0",
+    "@babel/plugin-transform-class-properties": "^7.28.6",
+    "@babel/plugin-transform-nullish-coalescing-operator": "^7.28.6",
+    "@babel/plugin-transform-optional-chaining": "^7.28.6",
     "@babel/preset-env": "^7.24.0",
+    "@babel/preset-typescript": "^7.28.5",
     "@rollup/plugin-babel": "^6.0.4",
     "@rollup/plugin-commonjs": "^25.0.7",
     "@rollup/plugin-json": "^6.1.0",
