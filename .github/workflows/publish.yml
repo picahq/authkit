@@ -14,6 +14,8 @@ jobs:
         with:
           node-version: '20.x'
           registry-url: 'https://registry.npmjs.org/'
+      - name: Install latest npm
+        run: npm install -g npm@latest
       - name: Install dependencies
         run: |
           if [ -f package-lock.json ]; then
